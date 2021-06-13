@@ -39,7 +39,7 @@ print(output)
 print(" "*80)
 
 print(" "*80)
-print("show DNS output below")
+print("show DNS output below:")
 print("#"*80)
 output = net_connect.send_command('show run|inc name-server', delay_factor=2)
 print(output)
