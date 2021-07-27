@@ -58,7 +58,7 @@ def changedevicepass(hostname,username,password):
 
 if __name__ == "__main__":
 #This is main function
-    logging.basicConfig(filename='test.log', level=logging.DEBUG)
+    logging.basicConfig(filename='test.log', level=logging.DEBUG) #we can remove DEBUG when we are not troubleshooting since i used it to troubleshoot
     logger = logging.getLogger("netmiko")
     hostname = input("Enter the hostname: ")
     username = input("Enter the username: ")
