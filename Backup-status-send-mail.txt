@@ -21,7 +21,7 @@ for word in $filesvar;do
 	echo "String NOT Matched"
 	fi
 done
-#Recipient="shgudsi.web@cisco.com"
+#Recipient="abcd@gmail.com"
 TodayDate=$(date +"%m-%d-%Y")
 str1="Backup-status-ISE-Cluster-this-week-Executed-on"
 str2="$str1-$TodayDate"
